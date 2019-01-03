@@ -1,6 +1,6 @@
 # next-quiz
 
-> A React component for display quiz.
+> A React component for displaying quiz.
 
 [![NPM](https://img.shields.io/npm/v/next-quiz.svg)](https://www.npmjs.com/package/next-quiz) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
