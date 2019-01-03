@@ -1,7 +1,7 @@
 {
   "name": "next-quiz",
-  "version": "1.0.0",
-  "description": "A React component for display quiz.",
+  "version": "0.1.0",
+  "description": "A React component for displaying quiz.",
   "author": "kingspress",
   "license": "MIT",
   "repository": "kingspress/next-quiz",
