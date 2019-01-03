@@ -1,9 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { CSSTransitionGroup } from 'react-transition-group';
-import Question from '../components/Question';
-import QuestionCount from '../components/QuestionCount';
-import AnswerOption from '../components/AnswerOption';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { CSSTransitionGroup } from 'react-transition-group'
+import Question from '../components/Question'
+import QuestionCount from '../components/QuestionCount'
+import AnswerOption from '../components/AnswerOption'
+import '../assets/Quiz.css'
 
 function Quiz(props) {
   function renderAnswerOptions(key) {
@@ -16,14 +17,14 @@ function Quiz(props) {
         questionId={props.questionId}
         onAnswerSelected={props.onAnswerSelected}
       />
-    );
+    )
   }
 
   return (
     <CSSTransitionGroup
-      className="container"
-      component="div"
-      transitionName="fade"
+      className='container'
+      component='div'
+      transitionName='fade'
       transitionEnterTimeout={800}
       transitionLeaveTimeout={500}
       transitionAppear
@@ -32,12 +33,12 @@ function Quiz(props) {
       <div key={props.questionId}>
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question content={props.question} />
-        <ul className="answerOptions">
+        <ul className='answerOptions'>
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>
       </div>
     </CSSTransitionGroup>
-  );
+  )
 }
 
 Quiz.propTypes = {
@@ -47,6 +48,6 @@ Quiz.propTypes = {
   questionId: PropTypes.number.isRequired,
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired
-};
+}
 
-export default Quiz;
+export default Quiz

@@ -40,31 +40,31 @@ body {
   }
 }
 
-/* Result Component */
+/* Result Component
 .result {
   padding: 1.5rem 2.5rem;
-}
+} */
 
-/* Quiz Component */
+/* Quiz Component
 .answerOptions {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 
-/* QuestionCount Component */
+/* QuestionCount Component
 .questionCount {
   padding: 1.5rem 2.5rem 0;
   font-size: 14px;
-}
+} */
 
-/* Question Component */
+/* Question Component
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
-}
+} */
 
-/* AnswerOption Component */
+/* AnswerOption Component
 .answerOption {
   border-top: 1px solid #eee;
 }
@@ -115,7 +115,7 @@ body {
   background: #8bc53f url(./svg/icon-check.svg) no-repeat;
   background-size: 27px;
   border-color: #8bc53f;
-}
+} */
 
 /* Animation */
 .fade-enter {

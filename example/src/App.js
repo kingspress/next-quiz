@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import quizQuestions from './api/quizQuestions';
 import { Quiz, Result } from 'next-quiz';
-import 'next-quiz/src/styles.css';
+// import 'next-quiz/src/styles.css';
 
 class App extends Component {
   constructor(props) {
