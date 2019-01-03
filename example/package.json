@@ -9,6 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
+    "react-transition-group": "^1.2.1",
     "next-quiz": "link:.."
   },
   "scripts": {

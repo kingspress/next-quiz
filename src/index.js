@@ -1,22 +1,7 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import AnswerOption from './components/AnswerOption'
+import Quiz from './components/Quiz'
+import Result from './components/Result'
+import QuestionCount from './components/QuestionCount'
+import Question from './components/Question'
 
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export {AnswerOption, Quiz, Question, QuestionCount, Result}
